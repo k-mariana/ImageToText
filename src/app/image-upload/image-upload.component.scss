@@ -1,0 +1,47 @@
+.page-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    text-align: center;
+}  
+
+h1 {
+    color: white;
+    text-shadow:
+    -2px  0   0 var(--bs-primary),
+    2px  0   0 var(--bs-primary),
+    0   -2px 0 var(--bs-primary),
+    0    2px 0 var(--bs-primary);
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: contain;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f8f8f8; 
+  }
+
+  .image-preview-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
+  .image-details {
+    text-align: left;
+  }
+
+  p {
+    margin: 4px 0;
+  }
+
+  .recognized-text {
+    white-space: pre-wrap;
+    word-break: break-word;
+    margin: 0;
+  }
